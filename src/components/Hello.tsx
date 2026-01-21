@@ -3,5 +3,6 @@ type HelloProps = {
 };
 
 export function Hello({ name }: HelloProps) {
-  return <h1>Hello, {name}!</h1>;
+  const unusedVariable = 42;
+  return <h1>Hello, {name}! Age, {unusedVariable}</h1>;
 }
