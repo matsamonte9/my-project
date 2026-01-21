@@ -6,6 +6,6 @@ import { Hello } from '../components/Hello';
 describe('Hello component', () => {
   it('renders the correct greeting', () => {
     render(<Hello name="Mark" />);
-    expect(screen.getByText('Hello, Mark!')).toBeInTheDocument();
+    expect(screen.getByText('Hello, Mark!  Age, 42')).toBeInTheDocument();
   });
 });
