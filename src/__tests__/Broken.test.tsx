@@ -12,7 +12,7 @@ import { Hello } from '../components/Hello';
 describe('Broken test', () => {
   it('should fail intentionally', () => {
     render(<Hello name="Mark" />);
-    expect(screen.getByText(`Hello, Mark! Age, 42`)).toBeInTheDocument();
+    expect(screen.getByText(`Hello, I'm Mark! Age, 23. From the land of corrupt politicians, Philippines! and I thank you!`)).toBeInTheDocument();
   });
 });
 
