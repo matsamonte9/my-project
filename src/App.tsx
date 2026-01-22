@@ -13,7 +13,7 @@ function App() {
           textAlign: 'center',
           fontWeight: 'bold'
         }}>
-          🚧 PREVIEW MODE — Not Production
+          🚧 PREVIEW MODE — Not Production Burat
         </div>
       )}
 
