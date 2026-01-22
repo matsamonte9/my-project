@@ -2,7 +2,7 @@ import { Hello } from './components/Hello';
 import './App.css'
 
 function App() {
-  const isPreview = import.meta.env.MODE === 'preview';
+  const isPreview = import.meta.env.VITE_VERCEL_ENV === 'preview';
 
   return (
     <>
@@ -16,7 +16,7 @@ function App() {
           🚧 PREVIEW MODE — Not Production
         </div>
       )}
-      
+
       <main>
         <h1>Welcome to my Project</h1>
         <Hello name={'Veronica'} />
