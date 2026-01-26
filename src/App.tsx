@@ -22,6 +22,7 @@ function App() {
         <Hello name={'Veronica'} />
         <p>{import.meta.env.VITE_API_URL}</p>
         <p>{import.meta.env.VITE_APP_NAME}</p>
+        <p>jdahsjdahjdashkdsahhdasdskajda</p>
       </main>
     </>
   );

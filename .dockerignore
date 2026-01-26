@@ -1,0 +1,22 @@
+# Dependencies & build output
+node_modules
+dist
+dist-ssr
+
+# Environment & secrets
+.env
+.env.*
+
+# Git metadata
+.git
+.gitignore
+
+# Logs & coverage
+logs
+*.log
+coverage
+
+# Editor / OS junk
+.vscode
+.idea
+.DS_Store
